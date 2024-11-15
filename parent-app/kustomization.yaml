@@ -1,6 +1,6 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 resources:
-  - ../../app1/app1-application.yaml
-  - ../../app2/app2-application.yaml
-  - ../../app3/app3-application.yaml
+  - app1-application.yaml
+  - app2-application.yaml
+  - app3-application.yaml
